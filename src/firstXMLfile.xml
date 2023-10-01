@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+ <suite name="UI testing">
+	 <test name="Regression">
+		<parameter name="url" value="http://www.amazon.com"></parameter>
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="Fifth_session_B.ExecClass"></class>
+			
+		</classes> 
+		 
+	 </test>
+ </suite>

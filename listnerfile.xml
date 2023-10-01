@@ -1,0 +1,23 @@
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="Sixteenth_session_D.ListnerCode"></listener>
+	</listeners>
+  <test thread-count="5" name="Test">
+	  <parameter name="url" value="http://www.facebook.com"></parameter>
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="Sixteenth_session_C.RunCode"></class>
+			
+		</classes> 
+</test> 
+<!--  <test name="Browser testing">-->
+<!--  <parameter name="url" value="http://www.facebook.com"></parameter>-->
+<!--		<parameter name="browser" value="firefox"></parameter>-->
+<!--		<classes>-->
+<!--			<class name="Sixteenth_session_C.RunCode"></class>-->
+			
+<!--		</classes> -->
+<!--		</test>-->
+</suite> <!-- Suite -->
